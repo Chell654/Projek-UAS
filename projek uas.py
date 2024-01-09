@@ -20,54 +20,54 @@ def daftar_barang():
     print("| 10 | Kopi Hitam         | 4000  |")
 
     print("-------------------------------")
-    kode = int(input("Masukkan angka makanan  : "))
+    kode = int(input("Masukkan angka barang  : "))
     if kode == 1:
-        jumlah1 = int(input("Masukkan jumlah makanan : "))
+        jumlah1 = int(input("Masukkan jumlah barang : "))
         total1 = 1000 * jumlah1
         total.append(total1)
         tanya()
     elif kode == 2:
-        jumlah2 = int(input("Masukkan jumlah makanan : "))
+        jumlah2 = int(input("Masukkan jumlah barang : "))
         total2 = 2000 * jumlah2
         total.append(total2)
         tanya()
     elif kode == 3:
-        jumlah3 = int(input("Masukkan jumlah makanan : "))
+        jumlah3 = int(input("Masukkan jumlah barang : "))
         total3 = 1000 * jumlah3 
         total.append(total3)
         tanya()
     elif kode == 4:
-        jumlah4 = int(input("Masukkan jumlah makanan : "))
+        jumlah4 = int(input("Masukkan jumlah barang : "))
         total4 = 1000 * jumlah4
         total.append(total4)
         tanya()
     elif kode == 5:
-        jumlah5 = int(input("Masukkan jumlah makanan : "))
+        jumlah5 = int(input("Masukkan jumlah barang : "))
         total5 = 5000 * jumlah5   
         total.append(total5)
         tanya()
     elif kode == 6:
-        jumlah6 =int(input("Masukan jumlah makanan :"))
+        jumlah6 =int(input("Masukan jumlah barang :"))
         total6 = 5000 * jumlah6
         total.append(total6)
         tanya()
     elif kode == 7:
-        jumlah7 =int(input("Masukan jumlah makanan :"))
+        jumlah7 =int(input("Masukan jumlah barang :"))
         total7 = 15000 * jumlah7
         total.append(total7)
         tanya()
     elif kode == 8:
-        jumlah8 =int(input("Masukan jumlah makanan :"))
+        jumlah8 =int(input("Masukan jumlah barang :"))
         total8 = 15000 * jumlah8
         total.append(total8)
         tanya()
     elif kode == 9:
-        jumlah9 =int(input("Masukan jumlah makanan :"))
+        jumlah9 =int(input("Masukan jumlah barang :"))
         total9 = 5000 * jumlah9
         total.append(total9)
         tanya()
     elif kode == 10:
-        jumlah10 =int(input("Masukan jumlah makanan :"))
+        jumlah10 =int(input("Masukan jumlah barang :"))
         total10 = 4000 * jumlah10
         total.append(total10)
         tanya()
